@@ -66,7 +66,10 @@ function currentLine (katzDeliLine, linePosition) {
        
        if (n >= katzDeliLine.length) {
          currentLineUp.slice(0, -1);
+         return currentLineUp
        }
+      
+      else if { 
     }
     
     
