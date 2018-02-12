@@ -44,19 +44,15 @@ function nowServing (katzDeliLine) {
 function currentLine (katzDeliLine, linePosition) {
   
   if (katzDeliLine.length === 0) {
-    
     return "The line is currently empty."
   }
   
-  
   else if (katzDeliLine !== 0) {
   
-    //n = index
-    var n = 0;
-    
-    //x = actual line position in plain english
-    var x = 1;
-    var currentLineUp = "The line is currently:"
+   
+    var n = 0;  //n = index
+    var x = 1;  //x = actual line position in plain english 
+    var currentLineUp = "The line is currently:" //currentLineUp is the start of a string that will be appended with message later.
   
     while (n < katzDeliLine.length) {
     
