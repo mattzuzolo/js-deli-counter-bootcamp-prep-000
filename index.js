@@ -63,8 +63,6 @@ function currentLine (katzDeliLine, linePosition) {
       currentLineUp += (` ${x}. ${katzDeliLine[n]},`)
        n++;
        x++;
-       
-       
     }
     
     
