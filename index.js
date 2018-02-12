@@ -69,7 +69,7 @@ function currentLine (katzDeliLine, linePosition) {
          return currentLineUp
        }
       
-      else if { 
+      else { 
         return currentLineUp;
       }
     }
