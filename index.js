@@ -59,8 +59,8 @@ function currentLine (katzDeliLine, linePosition) {
        n++;
        x++;
     }
-    
-    
+   
+   currentLineUp.slice(0, -1);
    return currentLineUp;
   
   }
