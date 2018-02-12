@@ -60,7 +60,7 @@ function currentLine (katzDeliLine, linePosition) {
        x++;
     }
    
-   currentLineUp.slice(0, -1);
+   currentLineUp = currentLineUp.slice(0, -1);
    return currentLineUp;
   
   }
