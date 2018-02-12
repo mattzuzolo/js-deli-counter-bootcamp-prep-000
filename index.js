@@ -24,7 +24,7 @@ function takeANumber (katzDeliLine, newPatronName) {
 }
 
 
-function nowServing () {
+function nowServing (katzDeliLine) {
   
   if (katzDeliLine.length === 0) {
     
