@@ -55,14 +55,10 @@ function currentLine (katzDeliLine, linePosition) {
     var currentLineUp = "The line is currently:" //currentLineUp is the start of a string that will be appended with message later.
   
     while (n < katzDeliLine.length) {
-    
       currentLineUp += (` ${x}. ${katzDeliLine[n]},`)
        n++;
        x++;
     }
-    
-    
-    
    return currentLineUp;
   
   }
