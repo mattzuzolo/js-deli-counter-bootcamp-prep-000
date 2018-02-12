@@ -76,7 +76,7 @@ function currentLine (katzDeliLine, linePosition) {
     
     
     
-    return currentLineUp;
+ //   return currentLineUp;
   
   }
 }
